@@ -1,7 +1,7 @@
 var thisAsshole = $(".user:contains('robotron3k')" );
 
 thisAsshole.parent().parent().css({"opacity": ".1"});
-thisAsshole.text("CUNT");
+thisAsshole.text("* CUNT* ");
 
 thisAsshole.parent().parent().click(function() 
 {
