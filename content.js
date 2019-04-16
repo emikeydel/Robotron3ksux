@@ -1,9 +1,15 @@
+var thisAsshole = $(".user:contains('robotron3k')" );
 
+thisAsshole.parent().parent().css({"opacity": ".1"});
+thisAsshole.text("CUNT");
 
-
-$(".user:contains('robotron3k')" ).parent().parent().css({"opacity": ".1"});
-$(".user:contains('robotron3k')" ).parent().parent().hover(function() {
-  $( this ).css({"opacity": "1"});
-  }, function() {
-    $( this ).css({"opacity": ".1"});
+thisAsshole.parent().parent().click(function() 
+{
+	if(thisAsshole.parent().parent().css('opacity') == .1) {
+		thisAsshole.parent().parent().css({"opacity": "1"});
+		thisAsshole.text("robotron3k");
+	}else{
+		thisAsshole.parent().parent().css({"opacity": ".1"});
+		thisAsshole.text("* CUNT *");
+	}
 });
