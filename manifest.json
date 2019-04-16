@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "robotron3ksux",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Hides anything posted by robotron3k on QBN.",
   "icons": {
   	"16": "icon16.png",
